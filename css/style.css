@@ -149,6 +149,12 @@ body{
   height: 220px;
 }
 
+.views-field-commerce-price .field-content{
+  color: #3498DB;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
 #block-menu-menu-category-taxonomy-menu .block-title{
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -156,13 +162,16 @@ body{
 }
 
 /*<REGION BLOQUE SEARCH FORM>*/
-.front .region-navigation{
+.front .region-navigation,
+.page-products .region-navigation
+{
   width: 350px;
   float: left;
   margin-left:15px;
 }
 
-.front .views-exposed-widget .form-submit{
+/*.front */.views-exposed-widget .form-submit,
+/*.page-products */.views-exposed-widget .form-submit{
   /*background: #3498DB url(../../../../default/files/search.png) no-repeat;*/
   
   margin-top: 0;
@@ -221,22 +230,59 @@ body{
 
 .titulo{
   font-size: 23px;
+  float: left;
 }
 
 .vendedor:before{
   content:'by ';
 }
 
-.precio{
+.vendedor{
+  color: gray;
+  float: left;
+  clear: left;
+}
 
+.precio{
+  float: left;
+  clear: left;
+  color: #3498DB;
+  font-weight: bolder;
+}
+
+.label-descripcion{
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.contenido-descripcion{
+  margin-left: 5px;
 }
 
 .descripcion{
+  float: right;
+  width: 36%;
+  margin-top: -35px;
+}
 
+.label-inventario{
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.contenido-inventario{
+  margin-left: 5px;
 }
 
 .inventario{
+  float: left;
+  clear: left;
+  margin-top: 10px;
+}
 
+.cart{
+  float: left;
+  clear: left;
 }
 
 /*</PAGE PRODUCTS>*/
