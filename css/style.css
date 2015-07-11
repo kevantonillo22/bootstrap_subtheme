@@ -1,0 +1,272 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+body{
+  background-color: white;
+}
+#navbar{
+  margin-bottom: 0;
+}
+
+.cuadro1{	
+	border-bottom-color: #3A7BF2;
+	background-image: url(../../../../default/files/stripes-blue.png);
+	background-repeat: repeat;
+	background-position: center;
+	border-radius: 5px;
+	padding:30px;
+	color:white;
+	text-align: center;
+	margin-bottom:32.5px;
+}
+
+.cuadro2{	
+	border-bottom-color: #F82E5D;
+  background-color: #F60A43;
+	background-image: url(../../../../default/files/stripes-purple.png);
+	background-repeat: repeat;
+	background-position: center;
+	border-radius: 5px;
+	padding:30px;
+	color:white;
+	text-align: center;
+	margin-bottom:32.5px;
+}
+
+.cuadro3{	
+	border-bottom-color: #5BBD7F;
+ 	background-color: #7BD09C;
+	background-image: url(../../../../default/files/stripes-green.png);
+	background-repeat: repeat;
+  background-position: center;
+  border-radius: 5px;
+  padding:30px;
+  color:white;
+  text-align: center;
+}
+
+.strip1{
+  width: 100%;
+  height: 70px;
+  /*border-bottom: 1px solid #E5E5E5;*/
+  background:#2f3338 url(../../../../default/files/r.png) repeat;
+  color:white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer{
+  background:#2f3338 url(../../../../default/files/page-head-bg2.gif) repeat;
+}
+
+#block-menu-menu-footer-menu,
+#block-menu-menu-footer-menu-2,
+#block-menu-menu-footer-menu-3,
+#block-menu-menu-footer-menu-4{
+  width:23%;
+  float:left;
+}
+.footer .region-footer-left{
+  color:white;
+}
+
+.footer .region-footer-right{
+  color:black;
+}
+
+.nolink{
+  font-weight: bolder;
+}
+
+.footer .region-footer-left a{
+  padding-left:0px !important;
+}
+
+.footer .region-footer-left a:hover{
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.footer .region-footer-right a{
+  margin-left: 13px;
+  margin-right: 101px;
+  border-radius: 10px;
+}
+
+.footer .region-footer-right .nav li.first{
+  background: url(../../../../default/files/bg_block_footer_title2.png) no-repeat;
+  padding: 0px 0px 28px 16px;
+  background-position: 0px 0px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.footer .region-footer-right .nav li{
+  padding-left: 30px;
+}
+.facebook-icon{
+  background: url(../../../../default/files/facebook.png) no-repeat;
+  background-size: 35px 35px;
+  background-position: 0px 0px;
+}
+
+.twitter-icon{
+  background: url(../../../../default/files/twitter.png) no-repeat;
+  background-size: 35px 35px;
+  background-position: 0px 0px; 
+}
+
+.google-icon{
+  background: url(../../../../default/files/googleplus.png) no-repeat;
+  background-size: 35px 35px;
+  background-position: 0px 0px;
+}
+.footer2{
+  background-color:#3F3F3F;
+  color:white; 
+}
+.region-footer2-left{
+  margin-top: 30px;
+}
+.region-footer2-right
+{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px 0px;
+  text-align: center
+}
+
+#block-views-products-front-block .views-row{
+  margin-top:20px;
+}
+
+.views-field-field-photo .field-content{
+  display: table-cell;
+  vertical-align: middle;
+  height: 220px;
+}
+
+#block-menu-menu-category-taxonomy-menu .block-title{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 5px;
+}
+
+/*<REGION BLOQUE SEARCH FORM>*/
+.front .region-navigation{
+  width: 350px;
+  float: left;
+  margin-left:15px;
+}
+
+.front .views-exposed-widget .form-submit{
+  /*background: #3498DB url(../../../../default/files/search.png) no-repeat;*/
+  
+  margin-top: 0;
+  margin-left: -18px;
+  background: #95a5a6 url(../../../../default/files/search-3-32.png) no-repeat;
+  background-size: 20px;
+  background-position: 15px;
+  height: 43px;
+  font-size: 0;
+  width: 50px;
+  border-color: rgb(168, 168, 168);
+}
+
+.search-block-collapse{
+    display: none;
+}
+
+.search-block-collapse .views-widget-filter-search_api_views_fulltext{
+    width:85%;
+}
+
+.front .search-block-collapse .region-navigation{
+  width: 100%;
+  float: left;
+}
+/*</REGION BLOQUE SEARCH FORM>*/
+
+/*<PAGE PRODUCTS>*/
+.page-products #views-bootstrap-grid-1 .row{
+  margin-bottom: 25px;
+  border-bottom-style: solid;
+  padding-bottom: 25px;
+  border-bottom-width: 1px;
+  border-color: rgb(236, 240, 241);
+}
+
+#views-bootstrap-grid-1 > :last-child{
+  border:none !important;
+}
+
+.centrado{
+  display: table;
+  width: 100%;
+  height: 180px;
+}
+
+.alineado{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.foto{
+  text-align: center;
+}
+
+.titulo{
+  font-size: 23px;
+}
+
+.vendedor:before{
+  content:'by ';
+}
+
+.precio{
+
+}
+
+.descripcion{
+
+}
+
+.inventario{
+
+}
+
+/*</PAGE PRODUCTS>*/
+
+
+.pagination{
+  margin-top: 64px;
+  margin-bottom: 0px; 
+}
+
+input.watermark { 
+  color: #999; 
+}
+
+@media (max-width: 1200px) {
+  .hidden-phone{
+    display: none !important;
+  }
+}
+
+/*MENU SEARCH ELEMENT HIDE*/
+@media (max-width: 992px) {
+  .front .navbar .region-navigation{
+    display: none !important;
+  }
+}
+
+/*FORM SEARCH ELEMENT SHOW*/
+@media (max-width: 992px) {
+  .search-block-collapse{
+    display: initial;
+  }
+}
